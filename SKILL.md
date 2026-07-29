@@ -3,7 +3,7 @@ name: agent-value-ledger
 description: Automatically discover completed agent work, deduplicate it, estimate conservative time and monetary value, and maintain an auditable local Excel ledger. Use when the user asks for agent value accounting, ROI/time-saved tracking, unattended work logging, a value ledger, or a reviewable Excel record of completed AI-assisted work.
 ---
 
-# Agent 价值记账
+# 时间就是金钱｜AI's time is money
 
 用一个本地 Excel 工作簿维护 Agent 已完成工作的价值账本。Agent 负责发现、去重、估算和更新；用户只需审阅异常项，不手工逐条填写。
 

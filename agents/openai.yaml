@@ -1,4 +1,4 @@
 interface:
-  display_name: "Agent 价值记账"
-  short_description: "自动发现已完成工作并用本地 Excel 记录可审计的时间与价值估算"
+  display_name: "时间就是金钱｜AI's time is money"
+  short_description: "自动发现已完成工作，把 Agent 省下的时间量化并折算成钱，记进可审计的本地 Excel"
   default_prompt: "用 $agent-value-ledger 扫描已完成工作，去重后写入本地 Excel 账本，更新保守汇总并给出待审阅项。"
