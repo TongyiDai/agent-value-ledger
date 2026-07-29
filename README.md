@@ -13,18 +13,8 @@
 
 Agent 价值记账把这些工作转成一份可复核的本地 Excel 账本。它记录的核心单位不是“调用了几次 AI”，而是“完成了一项什么工作，并留下了什么结果”。
 
-## 三张图看懂它怎么工作
-
 <p align="center">
   <img src="assets/boards/value-flow.svg" alt="从完成任务、交付物到保守价值" width="900" />
-</p>
-
-<p align="center">
-  <img src="assets/boards/evidence-gate.svg" alt="有证据的记录进入主结论，待审阅记录先保留" width="900" />
-</p>
-
-<p align="center">
-  <img src="assets/boards/dedupe-ledger.svg" alt="通过任务 ID、来源和交付物指纹避免重复记账" width="900" />
 </p>
 
 ## 它的价值
@@ -40,6 +30,10 @@ Agent 常常在一天里完成许多小而分散的工作：查资料、整理�
 每项记录都保留任务 ID、来源、交付物、完成状态、估算假设和置信度。用户可以追问：这项工作到底完成了什么？原本人工要做多久？我自己实际参与了多少？
 
 它不要求价值估算绝对精确，要求估算过程透明、口径稳定、可以被修正。
+
+<p align="center">
+  <img src="assets/boards/evidence-gate.svg" alt="有证据的记录进入主结论，待审阅记录先保留" width="900" />
+</p>
 
 ### 帮助判断 Agent 应该继续做什么
 
@@ -82,6 +76,10 @@ Agent 常常在一天里完成许多小而分散的工作：查资料、整理�
       ↓
 公式汇总、错误检查、待审阅标记
 ```
+
+<p align="center">
+  <img src="assets/boards/dedupe-ledger.svg" alt="通过任务 ID、来源和交付物指纹避免重复记账" width="900" />
+</p>
 
 每次默认回扫最近 7 天。这个窗口专门处理一个常见问题：会话已经完成，但摘要或交付物索引稍后才落盘。
 
