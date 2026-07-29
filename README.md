@@ -13,6 +13,20 @@
 
 Agent 价值记账把这些工作转成一份可复核的本地 Excel 账本。它记录的核心单位不是“调用了几次 AI”，而是“完成了一项什么工作，并留下了什么结果”。
 
+## 三张图看懂它怎么工作
+
+<p align="center">
+  <img src="assets/boards/value-flow.svg" alt="从完成任务、交付物到保守价值" width="900" />
+</p>
+
+<p align="center">
+  <img src="assets/boards/evidence-gate.svg" alt="有证据的记录进入主结论，待审阅记录先保留" width="900" />
+</p>
+
+<p align="center">
+  <img src="assets/boards/dedupe-ledger.svg" alt="通过任务 ID、来源和交付物指纹避免重复记账" width="900" />
+</p>
+
 ## 它的价值
 
 ### 让隐形产出变得可见
