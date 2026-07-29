@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent 价值记账"
+  short_description: "自动发现已完成工作并用本地 Excel 记录可审计的时间与价值估算"
+  default_prompt: "用 $agent-value-ledger 扫描已完成工作，去重后写入本地 Excel 账本，更新保守汇总并给出待审阅项。"
