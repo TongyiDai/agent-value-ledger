@@ -91,10 +91,15 @@ Agent 常常在一天里完成许多小而分散的工作：查资料、整理�
 ## 快速开始
 
 1. 安装或加载 `agent-value-ledger` Skill。
-2. 复制 `assets/agent-value-ledger-template.xlsx` 到你的本地工作目录。
-3. 在 `规则` 工作表确认时薪、时区、默认成本和回扫天数。
-4. 让 Agent 扫描已完成工作并更新 Excel。
-5. 先审阅 `任务明细` 中的 `needs_review` 和低置信度记录，再使用 `汇总` 的保守主结论。
+2. 运行 `scripts/doctor.sh --json`，确认模板和构建脚本可用。
+3. 复制 `assets/agent-value-ledger-template.xlsx` 到你的本地工作目录。
+4. 在 `规则` 工作表确认时薪、时区、默认成本和回扫天数。
+5. 让 Agent 扫描已完成工作并更新 Excel。
+6. 先审阅 `任务明细` 中的 `needs_review` 和低置信度记录，再使用 `汇总` 的保守主结论。
+
+### Agent 使用说明
+
+先运行 `scripts/doctor.sh --json`，再确认当前 Agent 能读取哪些会话摘要、任务记录、项目日志和交付物目录。来源不可访问时必须显式记录，不能推断为没有完成工作。写入用户工作簿后要回读新增行、汇总单元格和公式错误扫描；只写入文件不等于已验证。运行约定见 [`references/runtime.md`](references/runtime.md)。
 
 ## 适合谁
 
