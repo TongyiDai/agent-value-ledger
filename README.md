@@ -1,6 +1,6 @@
 > “The purpose of computing is insight, not numbers.” — Richard Hamming
 
-# 时间就是金钱｜AI's time is money
+<h1 align="center">时间就是金钱｜AI's time is money</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
