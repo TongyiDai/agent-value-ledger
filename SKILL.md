@@ -5,6 +5,10 @@ description: Automatically discover completed agent work, deduplicate it, estima
 
 # 时间就是金钱｜AI's time is money
 
+## 首步：检查环境与数据来源
+
+运行 `scripts/doctor.sh --json`。随后确认当前 Agent 是否能读取会话摘要、任务记录、项目日志和交付物目录；缺失来源必须记录为“来源不可访问”，不能推断为没有完成工作。运行与来源适配规则见 [runtime.md](references/runtime.md)。
+
 用一个本地 Excel 工作簿维护 Agent 已完成工作的价值账本。Agent 负责发现、去重、估算和更新；用户只需审阅异常项，不手工逐条填写。
 
 ## 设计边界
